@@ -3,8 +3,11 @@ project(Competitive_Programming)
 
 set(CMAKE_CXX_STANDARD 20)
 
-# Executable for Problem A
+# Executable for Problem A - Only one file here
 add_executable(Problem_A "Assuit_Recursion/A_Print_Recursion.cpp")
 
 # Executable for Problem B
 add_executable(Problem_B "Assuit_Recursion/B_Print_from_1_to_N.cpp")
+
+# Executable for Problem C
+add_executable(Problem_C "Assuit_Recursion/C_Print_from_N_to_1.cpp")
