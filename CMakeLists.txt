@@ -10,6 +10,7 @@ add_executable(Problem_A "Assuit_Recursion/A_Print_Recursion.cpp"
         Assuit_Recursion/F_Print_Even_Indices.cpp
         Assuit_Recursion/G_Pyramid.cpp
         Assuit_Recursion/H_Inverted_Pyramid.cpp
+        Assuit_Recursion/I_Count_Vowels.cpp
 )
 
 # Executable for Problem B
@@ -32,3 +33,6 @@ add_executable(Problem_G "Assuit_Recursion/G_Pyramid.cpp")
 
 # Executable for Problem H
 add_executable(Problem_H "Assuit_Recursion/H_Inverted_Pyramid.cpp")
+
+# Executable for Problem I
+add_executable(Problem_I "Assuit_Recursion/I_Count_Vowels.cpp")
