@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(Problem_A "Assuit_Recursion/A_Print_Recursion.cpp"
         Assuit_Recursion/D_Print_Digits_using_Recursion.cpp
         Assuit_Recursion/E_Base_Converssion.cpp
+        Assuit_Recursion/F_Print_Even_Indices.cpp
 )
 
 # Executable for Problem B
@@ -20,3 +21,6 @@ add_executable(Problem_D "Assuit_Recursion/D_Print_Digits_using_Recursion.cpp")
 
 # Executable for Problem E
 add_executable(Problem_E "Assuit_Recursion/E_Base_Converssion.cpp")
+
+# Executable for Problem F
+add_executable(Problem_F "Assuit_Recursion/F_Print_Even_Indices.cpp")
