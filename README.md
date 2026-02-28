@@ -14,3 +14,4 @@ My solutions for competitive programming problems and Assiut University training
 | E | Base Converssion             |       [C++](./Assuit_Recursion/E_Base_Converssion.cpp)       | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/E) |
 | F | Print Even Indices           |      [C++](./Assuit_Recursion/F_Print_Even_Indices.cpp)      | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/F) |
 | G | Pyramid                      |           [C++](./Assuit_Recursion/G_Pyramid.cpp)            | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/G) |
+| H | Inverted Pyramid             |       [C++](./Assuit_Recursion/H_Inverted_Pyramid.cpp)       | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/H) |
