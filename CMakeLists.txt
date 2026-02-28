@@ -12,6 +12,7 @@ add_executable(Problem_A "Assuit_Recursion/A_Print_Recursion.cpp"
         Assuit_Recursion/H_Inverted_Pyramid.cpp
         Assuit_Recursion/I_Count_Vowels.cpp
         Assuit_Recursion/J_Factorial.cpp
+        main.cpp
 )
 
 # Executable for Problem B
