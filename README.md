@@ -16,3 +16,4 @@ My solutions for competitive programming problems and Assiut University training
 | G | Pyramid                      |           [C++](./Assuit_Recursion/G_Pyramid.cpp)            | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/G) |
 | H | Inverted Pyramid             |       [C++](./Assuit_Recursion/H_Inverted_Pyramid.cpp)       | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/H) |
 | I | Count Vowels                 |         [C++](./Assuit_Recursion/I_Count_Vowels.cpp)         | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/I) |
+| J | Factorial                    |          [C++](./Assuit_Recursion/J_Factorial.cpp)           | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/J) |
