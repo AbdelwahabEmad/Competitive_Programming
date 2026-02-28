@@ -12,23 +12,25 @@ void file(){
 #define ll long long
 #define ld long double
 #define sz(s) (int)(s).size()
-
-void print_from_n_to_1(int n){
+void print_Digits(int n){
     if(n == 0)return;
-    cout << n;
-    if(n > 1)cout << " ";
-    print_from_n_to_1(n - 1);
+    print_Digits(n / 10);
+    cout << n % 10 << " ";
 }
 void solve() {
     int n;
     cin >> n;
-    print_from_n_to_1(n);
+    if(n == 0){
+        cout << 0 << endl;
+        return;
+    }
+    print_Digits(n);
+    cout << endl;
 }
-
 signed main() {
     Code_By_Abdelwabab
     int t = 1;
-    //cin >> t;
+    cin >> t;
     while(t--){
         solve();
     }
