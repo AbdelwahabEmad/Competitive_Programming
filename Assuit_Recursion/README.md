@@ -5,7 +5,7 @@ This folder contains my C++ solutions for the **Recursion** sheet from the Assiu
 ## 📊 Problems Table
 
 | # | Problem Name                 |                  Solution                   |                               Problem Link                               |
-|:-:|:-----------------------------|:-------------------------------------------:|:------------------------------------------------------------------------:|
+|::|:-----------------------------|:-------------------------------------------:|:------------------------------------------------------------------------:|
 | A | Print Recursion              |       [C++](./A_Print_Recursion.cpp)        | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/A) |
 | B | Print from 1 to N            |      [C++](./B_Print_from_1_to_N.cpp)       | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/B) |
 | C | Print from N to 1            |      [C++](./C_Print_from_N_to_1.cpp)       | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/C) |
@@ -18,6 +18,7 @@ This folder contains my C++ solutions for the **Recursion** sheet from the Assiu
 | J | Factorial                    |          [C++](./J_Factorial.cpp)           | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/J) |
 | K | Max Number                   |          [C++](./K_Max_Number.cpp)          | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/K) |
 | L | Summation                    |          [C++](./L_Summation.cpp)           | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/L) |
+| M | Suffix Sum                    |          [C++](./M_Suffix_Sum.cpp)           | [Link](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/M) |
 
 ---
 *Note: Make sure your folder name is exactly `Assuit_Recursion` for these links to work correctly.*
