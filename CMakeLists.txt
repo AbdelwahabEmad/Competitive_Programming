@@ -9,6 +9,7 @@ add_executable(Problem_A "Assuit_Recursion/A_Print_Recursion.cpp"
         Assuit_Recursion/V_Creating_Expression1.cpp
         Assuit_Recursion/W_Reach_Value.cpp
         Assuit_Recursion/X_The_maximum_path_sum.cpp
+        Assuit_Recursion/Y_Number_of_Ways.cpp
 )
 add_executable(Problem_B "Assuit_Recursion/B_Print_from_1_to_N.cpp")
 add_executable(Problem_C "Assuit_Recursion/C_Print_from_N_to_1.cpp")
@@ -33,3 +34,4 @@ add_executable(Problem_U "Assuit_Recursion/U_Knapsack.cpp")
 add_executable(Problem_V "Assuit_Recursion/V_Creating_Expression1.cpp")
 add_executable(Problem_W "Assuit_Recursion/W_Reach_Value.cpp")
 add_executable(Problem_X "Assuit_Recursion/X_The_maximum_path_sum.cpp")
+add_executable(Problem_Y "Assuit_Recursion/Y_Number_of_Ways.cpp")
