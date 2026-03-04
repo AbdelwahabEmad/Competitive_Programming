@@ -17,7 +17,7 @@ const int N = 1e5 + 3;
 vector<vector<int>> adj(N);
 int n, m;
 int dp[N];
-int solve(int idx) {
+int go(int idx) {
     if (idx > n)return 0;
     int &ret = dp[idx];
     if (~ret)return ret;
@@ -37,7 +37,7 @@ void solve() {
     memset(dp, -1, sizeof dp);
     int mx = 0;
     for (int i = 1; i <= n; i++) {
-        mx = max(mx, solve(i));
+        mx = max(mx, go(i));
     }
     cout << mx;
 }
