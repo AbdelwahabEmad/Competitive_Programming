@@ -3,6 +3,9 @@ project(Competitive_Programming)
 
 set(CMAKE_CXX_STANDARD 20)
 
+# --- General ---
+add_executable(General_Practice "main.cpp")
+
 # --- Assuit Recursion Sheet ---
 add_executable(Problem_A "Assuit_Recursion/A_Print_Recursion.cpp")
 add_executable(Problem_B "Assuit_Recursion/B_Print_from_1_to_N.cpp")
@@ -32,13 +35,7 @@ add_executable(Problem_Y "Assuit_Recursion/Y_Number_of_Ways.cpp")
 add_executable(Problem_Z "Assuit_Recursion/Z_Left_Max.cpp")
 
 # --- Dynamic Programming (DP) ---
-add_executable(DP_Frog_1 "DP/Problems/Frog_1.cpp"
-        DP/Problems/Knapsack_1.cpp
-        DP/Problems/Knapsack_2.cpp
-        DP/Problems/Longest_Path.cpp
-        DP/Problems/Grid_1.cpp
-        DP/Problems/Coins.cpp
-)
+add_executable(DP_Frog_1 "DP/Problems/Frog_1.cpp")
 add_executable(DP_Frog_2 "DP/Problems/Frog_2.cpp")
 add_executable(DP_Vacation "DP/Problems/Vacation.cpp")
 add_executable(DP_Knapsack_1 "DP/Problems/Knapsack_1.cpp")
@@ -46,3 +43,4 @@ add_executable(DP_Knapsack_2 "DP/Problems/Knapsack_2.cpp")
 add_executable(DP_Longest_Path "DP/Problems/Longest_Path.cpp")
 add_executable(DP_Grid_1 "DP/Problems/Grid_1.cpp")
 add_executable(DP_Coins "DP/Problems/Coins.cpp")
+add_executable(DP_Deque "DP/Problems/Deque.cpp")
