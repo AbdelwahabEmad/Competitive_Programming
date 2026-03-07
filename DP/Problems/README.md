@@ -17,7 +17,8 @@ This folder contains my solutions and progress for **Dynamic Programming** probl
 | 9  | Deque            |       [C++](./Deque.cpp)       | [Link](https://atcoder.jp/contests/dp/tasks/dp_l) |
 | 10 | Matching         |     [C++](./Matching.cpp)      | [Link](https://atcoder.jp/contests/dp/tasks/dp_o) |
 | 11 | Digit Sum        |     [C++](./Digit_Sum.cpp)     | [Link](https://atcoder.jp/contests/dp/tasks/dp_s) |
-| 12 | Dice Combinations| [C++](./Dice_Combinations.cpp) |                     [Link](https://cses.fi/problemset/task/1633)                      |
+| 12 | Dice Combinations| [C++](./Dice_Combinations.cpp) |   [Link](https://cses.fi/problemset/task/1633)    |
+| 13 | Minimizing Coins | [C++](./Minimizing_Coins.cpp)  |   [Link](https://cses.fi/problemset/task/1634)    |
 
 ---
 
