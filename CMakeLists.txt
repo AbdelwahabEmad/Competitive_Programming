@@ -60,4 +60,6 @@ add_executable(DP_Palindromic_Subsequence "DP/DP with Solution Construction/Pali
 add_executable(DP_Changing_a_String "DP/DP with Solution Construction/Changing_a_String.cpp")
 
 # --- Data Structure ---
-add_executable(Segment_tree "Data Structure/Segment_tree.cpp")
+add_executable(Segment_tree "Data Structure/Segment_tree.cpp"
+        "Data Structure/Lazy_Segment_tree.cpp"
+)
