@@ -21,6 +21,7 @@ This folder contains my solutions and progress for **Dynamic Programming** probl
 | 13 | Minimizing Coins     |   [C++](./Minimizing_Coins.cpp)   |   [Link](https://cses.fi/problemset/task/1634)    |
 | 14 | Coin Combinations I  | [C++](./Coin_Combinations_I.cpp)  |   [Link](https://cses.fi/problemset/task/1635)    |
 | 15 | Coin Combinations II | [C++](./Coin_Combinations_II.cpp) |   [Link](https://cses.fi/problemset/task/1636)    |
+| 16 | Grid Paths I         |     [C++](./Grid_Paths_I.cpp)     |     [CSES](https://cses.fi/problemset/task/1638)      |
 
 ---
 

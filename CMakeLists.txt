@@ -53,6 +53,7 @@ add_executable(DP_Dice_Combinations "DP/Problems/Dice_Combinations.cpp")
 add_executable(DP_Minimizing_Coins "DP/Problems/Minimizing_Coins.cpp")
 add_executable(DP_Coin_Combinations_I "DP/Problems/Coin_Combinations_I.cpp")
 add_executable(DP_Coin_Combinations_II "DP/Problems/Coin_Combinations_II.cpp")
+add_executable(DP_Grid_Paths_I "DP/Problems/Grid_Paths_I.cpp")
 
 # --- DP with Solution Construction ---
 add_executable(DP_LCS "DP/DP with Solution Construction/LCS.cpp")
