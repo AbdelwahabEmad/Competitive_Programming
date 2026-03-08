@@ -64,4 +64,5 @@ add_executable(Segment_tree "Data Structure/Segment_tree.cpp"
         "Data Structure/Lazy_Segment_tree.cpp"
         "Data Structure/Sparse_table.cpp"
         "Data Structure/DSU.cpp"
+        "Data Structure/Binary_Trie.cpp"
 )
