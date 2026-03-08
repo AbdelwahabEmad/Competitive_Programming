@@ -58,3 +58,6 @@ add_executable(DP_Counting_Numbers "DP/Problems/Counting_Numbers.cpp")
 add_executable(DP_LCS "DP/DP with Solution Construction/LCS.cpp")
 add_executable(DP_Palindromic_Subsequence "DP/DP with Solution Construction/Palindromic_Subsequence.cpp")
 add_executable(DP_Changing_a_String "DP/DP with Solution Construction/Changing_a_String.cpp")
+
+# --- Data Structure ---
+add_executable(Segment_tree "Data Structure/Segment_tree.cpp")
