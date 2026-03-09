@@ -51,9 +51,7 @@ add_executable(DP_Minimizing_Coins "DP/Problems/Minimizing_Coins.cpp")
 add_executable(DP_Coin_Combinations_I "DP/Problems/Coin_Combinations_I.cpp")
 add_executable(DP_Coin_Combinations_II "DP/Problems/Coin_Combinations_II.cpp")
 add_executable(DP_Grid_Paths_I "DP/Problems/Grid_Paths_I.cpp")
-add_executable(DP_Book_Shop "DP/Problems/Book_Shop.cpp"
-        "Data Structure/Segment tree/Problems/Static_Range_Minimum_Queries.cpp"
-)
+add_executable(DP_Book_Shop "DP/Problems/Book_Shop.cpp")
 add_executable(DP_Counting_Numbers "DP/Problems/Counting_Numbers.cpp")
 
 # --- DP with Solution Construction ---
@@ -64,3 +62,5 @@ add_executable(DP_Changing_a_String "DP/DP with Solution Construction/Changing_a
 
 # --- Segment Tree ---
 add_executable(ST_Static_Range_Minimum_Queries "Data Structure/Segment tree/Problems/Static_Range_Minimum_Queries.cpp")
+add_executable(ST_Dynamic_Range_Sum_Queries "Data Structure/Segment tree/Problems/Dynamic_Range_Sum_Queries.cpp"
+)
