@@ -101,6 +101,7 @@ struct SegTree{
         return get(l,r,0,0,tree_size).pre;
     }
 };
+
 void solve() {
     int n, q;cin >> n >> q;
     vector<int>v(n);
