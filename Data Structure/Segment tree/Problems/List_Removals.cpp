@@ -81,7 +81,6 @@ void solve() {
     }
     cout << endl;
 }
-
 signed main() {
     Code_By_Abdelwabab
     solve();
