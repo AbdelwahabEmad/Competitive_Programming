@@ -89,7 +89,6 @@ void solve() {
         cout << mo.ans[i] << endl;
     }
 }
-
 signed main() {
     Code_By_Abdelwabab
     file();
