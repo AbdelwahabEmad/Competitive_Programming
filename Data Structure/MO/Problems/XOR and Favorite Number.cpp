@@ -7,7 +7,7 @@ void file()
     freopen("output.txt", "w", stdout);
 #endif
 }
-#define Code_By_Abdelwabab       \
+#define Code_By_Abdelwabab       
     ios::sync_with_stdio(false); \
     cin.tie(nullptr);            \
     cout.tie(nullptr);
