@@ -7,4 +7,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(General_Practice "main.cpp"
         DP/Problems/Removing_Digits.cpp
         DP/Problems/Array_Description.cpp
+        DP/Problems/Edit_Distance.cpp
 )
