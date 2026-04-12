@@ -47,7 +47,6 @@ void solve() {
 signed main() {
     Code_By_Abdelwabab
     int te = 1;
-    //cin >> te;
     while(te--){
         solve();
     }
