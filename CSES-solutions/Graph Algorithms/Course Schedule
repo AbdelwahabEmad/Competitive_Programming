@@ -1,0 +1,84 @@
+/* problem statement text */
+/*
+CSES - Course Schedule
+
+Time limit: 1.00 s
+Memory limit: 512 MB
+
+You have to complete nnn courses. There are mmm requirements of the form "course aaa has to be completed before course bbb". Your task is to find an order in which you can complete the courses.
+Input
+The first input line has two integers nnn and mmm: the number of courses and requirements. The courses are numbered 1,2,…,n1,2,\dots,n1,2,…,n.
+After this, there are mmm lines describing the requirements. Each line has two integers aaa and bbb: course aaa has to be completed before course bbb.
+Output
+Print an order in which you can complete the courses. You can print any valid order that includes all the courses.
+If there are no solutions, print "IMPOSSIBLE".
+Constraints
+
+1≤n≤1051 \le n \le 10^51≤n≤105
+1≤m≤2⋅1051 \le m \le 2 \cdot 10^51≤m≤2⋅105
+1≤a,b≤n1 \le a,b \le n1≤a,b≤n
+
+Example
+Input:
+5 3
+1 2
+3 1
+4 5
+
+Output:
+3 4 1 5 2
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define endl "\n"
+#define Code_By_Abdelwabab_Emad ios_base::sync_with_stdio(false); cin.tie(0),cout.tie(0);
+const int N = 1e5 + 2;
+vector<int>adj[N];
+int vis[N];
+int n,m,cycle;
+deque<int>path;
+void DFS(int node){
+    if(cycle)return;
+    vis[node] = 1;
+    for(auto child : adj[node]){
+        if(vis[child] == 2)continue;
+        if(vis[child] == 1){
+            cycle = 1;
+            return;
+        }
+        DFS(child);
+    }
+    vis[node] = 2;
+    path.push_front(node);
+}
+void ABDELWAHAB() {
+    cin >> n >> m;
+    while(m--) {
+        int a, b;
+        cin >> a >> b;
+        adj[a].push_back(b);
+    }
+    for(int i = 1;i <= n;i++){
+        if(vis[i] == 0){
+            DFS(i);
+        }
+    }
+    if(cycle){
+        cout << "IMPOSSIBLE";
+    }
+    else{
+        for(int i = 0;i < path.size();i++){
+            cout << path[i] << " ";
+        }
+    }
+}
+signed main() {
+    Code_By_Abdelwabab_Emad
+    int t = 1;
+    //cin >> t;
+    while (t--) {
+        ABDELWAHAB();
+    }
+}
